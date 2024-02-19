@@ -1,0 +1,57 @@
+.allCollection {
+  display: flex;
+  height: 100%;
+}
+
+.sidebar {
+  min-height: 700px;
+  box-shadow: 0 0 2px grey;
+  width: 15%;
+  background-color: rgb(100, 7, 7);
+
+}
+
+.sidebar-container {
+  background-color: rgb(100, 7, 7);
+}
+
+.layout {
+  box-shadow: 0 0 2px grey;
+  width: 85%
+}
+
+.blood-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white
+}
+
+.menu {
+  margin-top: 50px;
+}
+
+.menu-item {
+  margin-top: 30px;
+}
+
+.menu-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.menu-item i {
+  font-size: 1.2rem;
+  margin: 0 15px;
+
+}
+
+.active {
+  background-color: white;
+}
+
+.active a,
+.active i {
+  color: brown;
+}
